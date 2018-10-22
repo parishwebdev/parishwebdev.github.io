@@ -15,7 +15,7 @@ body, html{
 }
 #parallax{
   margin-bottom: 0.55rem;
-  background: url("../img/banner.jpeg");
+  background: url("../Img/banner.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
