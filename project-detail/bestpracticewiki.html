@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	  <meta charset="UTF-8">
+        <title>Parish Web Dev | Best Practice Wiki</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0064ff">
+    <meta name="msapplication-TileColor" content="#0064ff">
+    <meta name="theme-color" content="#0064ff">
+
+    <!-- Meta Seo Tags -->
+    <meta name = "keywords" content = "Best Practice Wiki" />
+    <meta name = "description" content = "Best Practice Wiki - application made to make research easier to find best practices for common programming languages." />
+    <meta name = "author" content = "Matthew Parish" />
+
+		<!-- Styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"> <!-- DevIcons-->
+		<link rel="stylesheet" type="text/css" href="../assets/styles/main.css">
+    </head>
+    <body>
+      <div id="parallax">
+      <nav id="mainNavTag" class="navbar navbar-expand-sm fixed-top navbar-dark">
+        <div class="container-fluid cust-Nav-Container">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+             <i class="fas fa-bars"></i>
+          </button>
+          <a class="navbar-brand mr-1" href="../index.html"><img src="../Assets/Img/Logo-ClearBackground-WhiteText.png" class="img-fluid" alt=""></a>
+          <div class="collapse navbar-collapse" id="navbar1">
+              <ul class="navbar-nav mr-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="../projects.html">&nbsp; Projects  <i class="fas fa-briefcase"></i> &nbsp;</a>
+                      </li>
+                      <span class="d-sm-none"> &nbsp; </span>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../resume.html">&nbsp; Resume  <i class="fas fa-info-circle"></i> &nbsp;</a>
+                      </li> 
+                    </ul>
+                    <hr class="d-sm-none">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li> 
+                            <a class="nav-link" href="https://github.com/parishwebdev" target="_blank">  <span> <i class="fab fa-github fa-lg"></i></span></a>
+                        </li>
+                        &nbsp;&nbsp;
+                        <li> 
+                            <a class="nav-link" href="mailto:mgparish@gmail.com">  <span> <i class="fas fa-envelope fa-lg"></i></span></a>
+                        </li>
+                        &nbsp;&nbsp;
+                        <li> 
+                            <a class="nav-link" href="https://www.linkedin.com/in/parishmatthew/" target="_blank">  <span> <i class="fab fa-linkedin fa-lg"></i></span></a>
+                        </li> 
+                        <span class="d-sm-none">&nbsp;</span>
+                    </ul>
+              </div> 
+      </div>
+      </nav>
+        <div class="parallax-container valign-mid pb-2 pt-5 mb-4">
+          <div class="rw-wrapper">
+            <h1 class="rw-sentence ">
+                <span >Parish Web</span>
+                <br>
+                <span id="devHeadTxt">Dev</span>
+                <div class="rw-text rw-text-animate">
+                  <span>eloper</span>
+                  <span>elopment</span>
+                  <span>oted</span>
+                </div>
+            </h1>
+          </div>
+        </div>
+      </div>
+
+
+    <div id="projectdetailsBPW" class="main-Content-Container projectDetails mb-5">
+
+      <h1 class="text-center mb-3">Best Practice Wiki</h1>
+
+      <div class="row my-2 headDetailSection">
+        <div class="col-12">
+          <div class="card shadow-lg"> 
+            <div class="card-body text-center ">
+                <img alt="Home Page" id="myImg1" src="../Assets\Img\bpw-homepage.png" class="img-fluid mb-3 img-thumbnail rounded shadow" />
+
+                <!-- The Modal -->
+                <div id="myModal1" class="modal">
+
+                  <!-- The Close Button -->
+                  <span class="close"><i class="far fa-times-circle"></i></span>
+
+                  <!-- Modal Content (The Image) -->
+                  <img alt="Home Page" class="modal-content mx-auto" id="img01">
+
+                  <!-- Modal Caption (Image Text) -->
+                  <div  class="caption" id="caption1"></div>
+
+                </div>
+
+              <h5 class="card-title">Introduction</h5>
+              <p class="card-text col-9 mx-auto">This project was my capstone at devCodeCamp. The goal was to solve a real world problem in a new way.  I created the Best Practice wiki, which is a reddit / article styled application that showcases best practices for each coding language, aiding in the ease of research and providing useful examples. In addition to helpful information, Best Practice Wiki has game elements to it; ranks, badges and a top upvoted pages. These elements were added to encourage people to post better articles and participate more. </p> 
+            </div>
+          </div>
+        </div>
+       </div>
+
+       <div class="contentCards"> 
+       <div class="row my-2 ">
+          <div class="col-md-6 col-sm-12">
+              <div class="card shadow-lg"> 
+                <div class="card-body valign-mid">
+                    <div class="row">
+                        <div class=" col-md-7  col-sm-12 text-center">
+                          <img alt="All Articles" src="../Assets\Img\bpw-allarticles.png" class="img-fluid img-thumbnail rounded shadow mb-2" id="myImg2"/>
+
+                            <!-- The Modal -->
+                            <div id="myModal2" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close"><i class="far fa-times-circle"></i></span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img alt="All Articles" class="modal-content mx-auto" id="img02">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div  class="caption" id="caption2"></div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-5 col-sm-12 text-left  my-auto">
+                            <h5 class="card-title">View All Articles</h5>
+                            <p class="card-text pr-2"> This page has articles by all languages and best practices to browse.</p>
+                        </div>
+                      </div> 
+                </div>
+              </div>
+            </div>
+          <div class="col-md-6 col-sm-12">
+              <div class="card shadow-lg"> 
+                <div class="card-body valign-mid">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-12 text-center">
+                          <img alt="Articles By Language" src="../Assets\Img\bpw-articlesbylanguage.png" class="img-fluid img-thumbnail rounded shadow mb-2" id="myImg3"/>
+
+                            <!-- The Modal -->
+                            <div id="myModal3" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close"><i class="far fa-times-circle"></i></span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img alt="Articles By Language" class="modal-content mx-auto" id="img03">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div  class="caption" id="caption3"></div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-5  col-sm-12 text-left  my-auto">
+                            <h5 class="card-title">View By Language</h5>
+                            <p class="card-text pr-2">This page allows users the ability to sort and view content by a particular language. Once a user creates an account, they can subscribe to a language and will receive a notification whenever a new article is posted.</p>
+                        </div>
+                      </div> 
+                </div>
+              </div>
+            </div>
+         </div>
+
+         <div class="row my-2">
+            <div class="col-md-6 col-sm-12">
+                <div class="card shadow-lg"> 
+                  <div class="card-body  valign-mid">
+                      <div class="row my-4">
+                          <div class="col-md-7 col-sm-12 text-center">
+                            <img alt="Articles By Language And Best Practice" src="../Assets\Img\bpw-articlesbylanguageandbestpractice.png" class="img-fluid img-thumbnail rounded shadow mb-2" id="myImg4"/>
+
+                            <!-- The Modal -->
+                            <div id="myModal4" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close"><i class="far fa-times-circle"></i></span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img alt="Articles By Language And Best Practice" class="modal-content mx-auto" id="img04">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div  class="caption" id="caption4"></div>
+
+                              </div>
+
+                          </div>
+                          <div class="col-md-5  col-sm-12 text-left  my-auto">
+                              <h5 class="card-title">View Articles By Language and Best Practice</h5>
+                              <p class="card-text pr-2 ">This page allows users the ability to view articles by a language and best practice. Also, once a web developer creates an account they can subscribe to a specific best practice within the language they want. When an article is posted for that language and specific best practice they will get a notification.</p>
+                          </div>
+                        </div> 
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="card shadow-lg"> 
+                  <div class="card-body valign-mid">
+                      <div class="row">
+                          <div class="col-md-7 col-sm-12 text-center">
+                            <img alt="User Portal New Subscription" src="../Assets\Img\bpw-userportalsubscribe.png" class="img-fluid img-thumbnail rounded shadow mb-2" id="myImg5"/>
+
+                            <!-- The Modal -->
+                            <div id="myModal5" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close"><i class="far fa-times-circle"></i></span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img alt="User Portal New Subscription" class="modal-content mx-auto" id="img05">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div  class="caption" id="caption5"></div>
+
+                            </div>
+
+                          </div>
+                          <div class="col-md-5  col-sm-12 text-left  my-auto">
+                              <h5 class="card-title">Subscriptions</h5>
+                              <p class="card-text pr-2">This page is where users can view their subscriptions, as well as their points/rank, comments on their articles, and badges earned.</p>
+                          </div>
+                        </div> 
+                  </div>
+                </div>
+              </div>
+           </div>
+
+           <div class="row my-2">
+            <div class="col-md-6 col-sm-12">
+                <div class="card shadow-lg"> 
+                  <div class="card-body  valign-mid">
+                      <div class="row">
+                          <div class="col-md-7 col-sm-12 text-center">
+                            <img alt="Creating An Article" src="../Assets\Img\bpw-createarticle.png"    class="img-fluid img-thumbnail rounded shadow mb-2" id="myImg6" /> 
+
+                            <!-- The Modal -->
+                            <div id="myModal6" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close"><i class="far fa-times-circle"></i></span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img alt="Creating An Article" class="modal-content mx-auto" id="img06">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div  class="caption" id="caption6"></div>
+
+                            </div>
+
+                          </div>
+                          <div class="col-md-5  col-sm-12 text-left  my-auto">
+                              <h5 class="card-title">Creating An Article</h5>
+                              <p class="card-text pr-2">In this page a web developer can create an article. Including a text editor for the featured code (codemirror.js was used to provide this functionality).</p>
+                          </div>
+                        </div> 
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="card shadow-lg"> 
+                  <div class="card-body  valign-mid">
+                      <div class="row">
+                          <div class="col-md-7 col-sm-12 text-center">
+                            <img alt="Article Look Once Created" src="../Assets\Img\bpw-completearticle.png" style="max-height: 263.3px" class="img-fluid img-thumbnail rounded shadow mb-2" id="myImg7" />
+
+                            <!-- The Modal -->
+                            <div id="myModal7"  class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close"><i class="far fa-times-circle"></i></span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img style="max-width: 42.5% !important;" alt="Article Look Once Created" class="modal-content mx-auto" id="img07">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div  class="caption" id="caption7"></div>
+
+                            </div>
+
+                          </div>
+                          <div class="col-md-5  col-sm-12 text-left  my-auto">
+                              <h5 class="card-title">Completed Article</h5>
+                              <p class="card-text pr-2">Once the article is created this is what it will look like. For the featured code to style the code highlight.js is used.</p>
+                          </div>
+                        </div> 
+                  </div>
+                </div>
+              </div>
+           </div>
+
+
+           <div class="row my-2">
+            <div class="col-md-6 col-sm-12">
+                <div class="card shadow-lg"> 
+                  <div class="card-body  valign-mid">
+                      <div class="row">
+                          <div class="col-md-7 col-sm-12 text-center">
+                            <img alt="Comment System" src="../Assets\Img\bpw-commentsystem.png"  class="img-fluid img-thumbnail rounded shadow mb-2" id="myImg8" />
+
+                            <!-- The Modal -->
+                            <div id="myModal8" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close"><i class="far fa-times-circle"></i></span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img alt="Comment System" class="modal-content mx-auto" id="img08">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div  class="caption" id="caption8"></div>
+
+                            </div>
+
+                          </div>
+                          <div class="col-md-5  col-sm-12 text-left  my-auto">
+                              <h5 class="card-title">Comment System</h5>
+                              <p class="card-text pr-2">Below each article, registered users can comment on the article and reply to existing comments.  </p>
+                          </div>
+                        </div> 
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="card shadow-lg"> 
+                  <div class="card-body  valign-mid">
+                      <div class="row">
+                          <div class="col-md-7 col-sm-12 text-center">
+                            <img alt="Upvote Or Downvote Articles" src="../Assets\Img\bpw-upvotearticle.png" class="img-fluid img-thumbnail rounded shadow mb-2" id="myImg9"/>
+
+                            <!-- The Modal -->
+                            <div id="myModal9" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close"><i class="far fa-times-circle"></i></span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img alt="Upvote Or Downvote Article" class="modal-content mx-auto" id="img09">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div  class="caption" id="caption9"></div>
+
+                            </div>
+
+                          </div>
+                          <div class="col-md-5  col-sm-12 text-left  my-auto">
+                              <h5 class="card-title">Upvote or Downvote Articles</h5>
+                              <p class="card-text pr-2">To show that an article is liked or not by the web developer community each article can be upvoted or downvoted.</p>
+                          </div>
+                        </div> 
+                  </div>
+                </div>
+              </div>
+           </div>
+
+
+           <div class="row my-2">
+            <div class="col-md-6 col-sm-12">
+                <div class="card shadow-lg"> 
+                  <div class="card-body  valign-mid">
+                      <div class="row">
+                          <div class="col-md-7 col-sm-12 text-center">
+                            <img alt="Top Upvoted Articles" src="../Assets\Img\bpw-topupvoted.png"  class="img-fluid img-thumbnail rounded shadow mb-2" id="myImg10" />
+
+                            <!-- The Modal -->
+                            <div id="myModal10" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close"><i class="far fa-times-circle"></i></span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img alt="Top Upvoted Articles" class="modal-content mx-auto" id="img10">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div  class="caption" id="caption10"></div>
+
+                            </div>
+
+                          </div>
+                          <div class="col-md-5  col-sm-12 text-left  my-auto">
+                              <h5 class="card-title">Top Upvoted Articles</h5>
+                              <p class="card-text pr-2">If an individual article is upvoted enough it could end up on the top upvoted page. Also shown on this page is whenever you click on someone else's name, you can view their rank and how many points/badges they have (also on other pages).</p>
+                          </div>
+                        </div> 
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="card shadow-lg"> 
+                  <div class="card-body  valign-mid">
+                      <div class="row">
+                          <div class="col-md-7 col-sm-12 text-center">
+                            <img alt="Bad Articles" src="../Assets\Img\bpw-badarticle.png" class="img-fluid img-thumbnail rounded shadow mb-2" id="myImg11" />
+
+                            <!-- The Modal -->
+                            <div id="myModal11" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close"><i class="far fa-times-circle"></i></span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img alt="Bad Article" class="modal-content mx-auto" id="img11">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div  class="caption" id="caption11"></div>
+
+                            </div>
+
+                          </div>
+                          <div class="col-md-5  col-sm-12 text-left  my-auto">
+                              <h5 class="card-title">Bad Articles</h5>
+                              <p class="card-text pr-2">If an article is downvoted a certain amount of time or the percentage of upvoted / downvoted votes has more downvotes, the article is styled differently. This lets the other web developers know that the article isn't liked by the community.</p>
+                          </div>
+                        </div> 
+                  </div>
+                </div>
+              </div>
+           </div>
+
+
+           <div class="row my-2">
+            <div class="col-md-6 col-sm-12">
+                <div class="card shadow-lg"> 
+                  <div class="card-body  valign-mid">
+                      <div class="row">
+                          <div class="col-md-7 col-sm-12 text-center">
+                            <img alt="Sharing An Article" src="../Assets\Img\bpw-sharingarticle.png"  class="img-fluid img-thumbnail rounded shadow mb-2" id="myImg12" />
+
+                            <!-- The Modal -->
+                            <div id="myModal12" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close"><i class="far fa-times-circle"></i></span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img alt="Sharing An Article" class="modal-content mx-auto" id="img12">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div  class="caption" id="caption12"></div>
+
+                            </div>
+
+                          </div>
+                          <div class="col-md-5  col-sm-12 text-left  my-auto">
+                              <h5 class="card-title">Share an Article</h5>
+                              <p class="card-text pr-2">With each article people have the ability to share the article via email. Otherwise they can save it for later.</p>
+                          </div>
+                        </div> 
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="card shadow-lg"> 
+                  <div class="card-body  valign-mid">
+                      <div class="row">
+                          <div class="col-md-7 col-sm-12 text-center">
+                            <img alt="User Portal With Badges" src="../Assets\Img\bpw-portalwithbadges.png" class="img-fluid img-thumbnail rounded shadow mb-2" id="myImg13" />
+
+                            <!-- The Modal -->
+                            <div id="myModal13" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close"><i class="far fa-times-circle"></i></span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img alt="User Portal with Badges" class="modal-content mx-auto" id="img13">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div  class="caption" id="caption13"></div>
+
+                            </div>
+
+                          </div>
+                          <div class="col-md-5  col-sm-12 text-left  my-auto">
+                              <h5 class="card-title">User Portal With Badges</h5>
+                              <p class="card-text pr-2"> After a article is upvoted a certain amount of time or so many comments on an article, a web developer will revieve a badge for the achievement.</p>
+                          </div>
+                        </div> 
+                  </div>
+                </div>
+              </div>
+           </div>
+
+           </div>
+          
+
+    </div>
+ 
+
+		  <!-- Scripts -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+      
+     <!-- my js -->
+      <script src="../assets\scripts\jQueryScript.js" ></script>
+
+      <script>  
+         
+ 
+      </script>
+
+</body>
+</html>

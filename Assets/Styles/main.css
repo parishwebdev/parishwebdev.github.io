@@ -1,0 +1,580 @@
+ /*Color 
+#0064FF - Blue  (Primary)
+#FF9B00 - Yellow (Complementary)
+*/
+
+/* Layout Styles */
+body, html{
+  background-color: rgb(168,191,224,.035) !important;
+}
+.main-Content-Container{
+  width: 91.5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.25rem;
+}
+#parallax{
+  margin-bottom: 0.55rem;
+  background: url("../img/banner.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-container {
+  height: 225px;
+  background-color: rgba(0,63,160,.5);
+}
+.valign-mid{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.valign-mid2{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-self: center;
+}
+.bg-black{
+  background-color:black;
+}
+
+/* Add the below transitions to allow a smooth color change similar to lyft */
+.navbar {
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+.navbar-brand {  
+  width: 70px; 
+  max-height: 68px; /* height of the navbar */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.projectDetails .headDetailSection #myImg1{
+   width: 575px; 
+}
+
+
+
+@media (max-width: 576px){
+  .navbar-toggler {
+    color: rgba(255,255,255,.92) !important;
+  }
+  
+  .navbar-toggler, .navbar-brand {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+  }
+ .navbar a{
+    color: rgba(255,255,255,.92) !important;
+  }
+  .collapse a{
+    color: rgba(255,255,255,.92) !important;
+    
+  }
+  .navbar {
+    background: rgb(0, 70, 170); /* IE */
+    background: rgba(0,63,160,.93); /* NON-IE */
+    
+  }
+  .navbar a:hover{
+    color: rgba(244,244,244,1) !important;
+    background: rgb(0, 70, 170); /* IE */
+    background: rgba(0,65,165,.97); /* NON-IE */
+  }
+
+  .cust-Nav-Container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar {
+    padding: .5rem 0rem !important;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .cust-Nav-Container{
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-toggler{
+    margin-left: 1.5rem;
+  }
+  .navbar-brand {
+    margin-right: 1.5rem;
+  }
+  .parallax-container{
+    padding-top: 4.5rem !important;
+  }
+}
+
+.navbar.scrolled {
+  background: rgb(0, 70, 170); /* IE */
+  background: rgba(0,63,160,.93); /* NON-IE */
+}
+.scrolled a{
+  color: rgba(252,252,252,.93) !important;
+}
+.scrolled a:hover{
+  color: rgba(255,255,255,1) !important;
+  background: rgb(0, 70, 170); /* IE */
+  background: rgba(0,70,170,.99); /* NON-IE */
+}
+.cust-Nav-Container{
+  width: 94.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* / Layout Styles */
+
+/* Project Border and Hr Gradients */ 
+.gradientCards .gradientHtmlCss hr {
+  border-image: linear-gradient(90deg, #F16529 ,#E44D26);
+  border-image-slice: 1;
+  border-width: 0.25rem;
+  }
+.gradientCards .gradientHtmlCss  .card-header {
+    border-image: linear-gradient(90deg, #33A9DC ,#1572B6);
+    border-image-slice: 1;
+    border-width: 0.25rem;
+    }
+.gradientCards .gradientJs hr {
+    border-image: linear-gradient(90deg, #F0DC5C ,#F0DB4F);
+    border-image-slice: 1;
+    border-width: 0.25rem;
+    }
+.gradientCards .gradientJs  .card-header {
+      border-image: linear-gradient(90deg, #F0DB4F ,#F0DC5C);
+      border-image-slice: 1;
+      border-width: 0.25rem;
+    }
+.gradientCards .gradientMySql hr {
+    border-image: linear-gradient(90deg, #E48E00, #DF8B00);
+    border-image-slice: 1;
+    border-width: 0.25rem;
+  }
+.gradientCards .gradientMySql .card-header {
+    border-image: linear-gradient(90deg, #00618A, #005B81);
+    border-image-slice: 1;
+    border-width: 0.25rem;
+  }
+.gradientCards .gradientMicroLang hr {
+    border-image: linear-gradient(90deg, #9B4F96, #68217A);
+    border-image-slice: 1;
+    border-width: 0.25rem;
+  }
+.gradientCards .gradientMicroLang .card-header {
+    border-image: linear-gradient(90deg, #2EAAE6, #1571B6);
+    border-image-slice: 1;
+    border-width: 0.25rem;
+  }
+  .gradientCards .gradientPhp .card-header, .gradientCards .gradientPhp hr {
+    border-image: linear-gradient(90deg, #6181B6, #5E7CAD);
+    border-image-slice: 1;
+    border-width: 0.25rem;
+  }
+  .gradientCards .gradientWrdPrs hr {
+    border-image: linear-gradient(90deg, #367FA0, #327694);
+    border-image-slice: 1;
+    border-width: 0.25rem;
+  }
+  .gradientCards .gradientWrdPrs .card-header {
+    border-image: linear-gradient(90deg, #494949, #434343);
+    border-image-slice: 1;
+    border-width: 0.25rem;
+  }
+  /* / Border and Hr Gradients */
+
+
+/* Project CardClasses */
+#project .card-header .card-title{
+   margin-bottom: 0px;
+}
+#project .card-header {
+  background-color: #fff;
+}
+#project .card-title {
+  color: #202020;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: lato;
+}
+#project .card hr {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+#project .card-action {
+  padding: .75rem 1.25rem;
+
+}
+#project .card p {
+  margin-bottom: 0px;
+}
+#project .card {
+  border-color: #ccc;
+}
+/* CardClasses */
+
+/* Icons */
+#projectTemp [class*=" devicon-"], [class^=devicon-] {
+  font-size: 275%;
+}
+.enlargeIconFurther{
+  font-size: 350%;
+}
+.devIconSlash{
+  font-size: 265%;
+}
+.cardFontAwesome{
+  font-size: 250%;
+}
+#sqlIcon{
+  color: #005B81;
+}
+#sqlIcon:after{
+  content: "\a SQL";
+  white-space: pre;
+  font-size: 65%;
+  color:#E48E00;
+}
+/* /Icons */
+
+/* tech stack icons */
+#project .textStackIcons [class*=" devicon-"], [class^=devicon-] {
+  font-size: 175%;
+  margin-left: .75rem;
+  margin-right: .75rem;
+} 
+.textStackIcons img  {
+  max-width: 2.9375rem !important;
+  max-height: 2.9375rem !important; 
+  
+  margin-left: .75rem;
+  margin-right: .75rem;
+}
+
+
+
+/* /tech stack icons */
+
+/* Buttons */ 
+.btn-outline-blue {
+  border: 2px solid #0064ff;
+  background-color: transparent;
+  color: #0064ff;
+}
+.btn-outline-blue:hover, .btn-outline-blue:focus {
+  border: 2px solid #003C99;
+  background-color: #003C99;
+  color: #fff;
+  -webkit-box-shadow: 0 3.5px 5px 0 rgba(0,0,0,.6), 0 5px 10px 0 rgba(0,0,0,.12);
+  box-shadow: 0 3.5px 5px 0 rgba(0,0,0,.16), 0 5px 10px 0 rgba(0,0,0,.12);
+} 
+
+.mp-outline-yellow {
+  background-color: white;
+  border: 1px solid #ff9b00;
+  color: #ff9b00;
+}
+.mp-outline-yellow:hover{
+  background-color: #FFC160;
+  border: 1px solid white;
+  color: white;
+}
+.mp-outline-yellow-thick {
+  background-color: white;
+  border: 1.50px solid #ff9b00;
+  font-weight: 600;
+  color: #ff9b00;
+}
+.mp-outline-yellow-thick:hover{
+  background-color: #FFC160;
+  border: 1.50px solid #FFC160;
+  color: white;
+}
+
+.mp-solid-blue {
+  background-color: #0064FF;
+  color: white;
+}
+.mp-solid-blue:hover {
+  background-color: white;
+  color: #004BBF;
+  border: 1px solid #004BBF;
+}
+.ctaBtn {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 6.5%;
+  padding-left: 6.5%;
+  border-radius: 36px;
+}
+
+
+/* / Buttons */
+
+
+
+
+/*animated rotate text headline */
+.rw-wrapper{
+  width: 92.5%;
+	padding: 10px;
+  margin: auto;
+}
+.rw-sentence{
+	margin: auto;
+  padding: 16px;
+  padding-left: 2px !important;
+
+}
+.rw-sentence span{
+	color: #FF9B00;
+}
+.rw-text{
+	display: inline;
+	text-indent: 0px;
+}
+.rw-text-animate span{
+  position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	color: #00FF1C;
+  -webkit-animation: rotateText 7.0s ease-in-out infinite 0s;
+  -ms-animation: rotateText 7.0s ease-in-out infinite 0s;
+  animation: rotateText 7.0s ease-in-out infinite 0s;
+}
+.rw-text-animate span:nth-child(2) {
+  -webkit-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+	animation-delay: 3s;
+	color: #00FF1C;
+
+}
+.rw-text-animate span:nth-child(3) {
+  -webkit-animation-delay: 5s;
+  -ms-animation-delay: 5s;
+	animation-delay: 5s;
+	color: #00FF1C;
+}
+@-webkit-keyframes rotateText {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); }
+	20% { opacity: 0; -webkit-transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes rotateText {
+    0% { opacity: 0; }
+    2% { opacity: 0; -ms-transform: translateY(-30px); }
+	5% { opacity: 1; -ms-transform: translateY(0px);}
+    17% { opacity: 1; -ms-transform: translateY(0px); }
+	20% { opacity: 0; -ms-transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes rotateText {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
+	20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+/* /animated rotate text headline */
+
+/* Home Mics*/
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1.75rem;
+  border: none; 
+  box-shadow: none;
+  font-size: 120%;
+  
+}
+
+#homeCardText {
+  max-width: 80.5%;
+   
+ }
+ #homeBigImg{
+   max-height: 22rem;
+   float: right;
+ }
+
+ 
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 80% !important;
+  max-height: 80% !important;
+} 
+.caption {
+  margin: auto;
+  display: block;
+  width: 80%; 
+  text-align: center;
+  color: #f1f1f1;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: relative; 
+  right: 8.75rem;
+  bottom: 4.75rem;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  padding: 2%;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.projectDetails .contentCards .card{
+  min-height: 18.985rem;
+}
+ 
+
+/* Media Queries  */   
+
+@media screen and (max-width: 768px) {
+ 
+.close { 
+  right: 5.00rem;
+  bottom: 3.95rem; 
+}
+
+
+}
+
+@media screen and (max-width: 576px) {
+
+  .close { 
+    right: 3.00rem;
+    bottom: 3.75rem; 
+  }
+  .caption {
+    margin-right: 4rem;
+  }
+
+  .rw-sentence {
+    font-size: 2.15rem;
+  }
+  #homeBigImg{
+    max-height: 20rem;
+    float: left;
+  }
+  .mp-outline-yellow {
+    font-size: 115%;
+  }
+  .mp-solid-blue {
+    font-size: 115%;
+  }
+  .card-block {
+    padding-right: 0rem !important;
+  }
+  .gradientCards .card-body {
+    padding: 0.75rem !important;
+  }
+  #homeCardText {
+    max-width: 92.45%;;
+  }
+
+  #textStackIcons [class*=" devicon-"], [class^=devicon-] {
+    font-size: 155%;
+    margin-left: .50rem;
+    margin-right: .50rem;
+    margin-top: .5rem;
+    margin-left: .5rem;
+  } 
+  .textStackIcons img {
+    max-width: 2.1375rem !important;
+    max-height: 2.1375rem !important; 
+    
+    margin-left: .50rem;
+    margin-right: .50rem;
+    margin-top: .5rem;
+    margin-left: .5rem;
+  }
+
+
+  #skillDiv img {
+    max-width: 4.1375rem !important;
+    max-height: 4.1375rem !important; 
+    
+    margin-left: .50rem;
+    margin-right: .50rem;
+    margin-top: .5rem;
+    margin-left: .5rem;
+  }
+  
+  #skillDiv #sqlResumeIcon {
+    max-width: 2.1375rem !important;
+    max-height: 2.1375rem !important; 
+    margin-top: .5rem;
+    margin-left: .5rem;
+  }
+  #pdfIconDiv {
+    text-align: center;
+     
+  }
+
+}
