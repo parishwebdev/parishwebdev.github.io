@@ -184,6 +184,8 @@ body, html{
   }
 .gradientCards .gradientMicroLang .card-header {
     border-image: linear-gradient(90deg, #2EAAE6, #1571B6);
+    -moz-border-image: -moz-linear-gradient(90deg, #2EAAE6, #1571B6);
+    -webkit-border-image: -webkit-linear-gradient(90deg, #2EAAE6, #1571B6);
     border-image-slice: 1;
     border-width: 0.25rem;
   }
