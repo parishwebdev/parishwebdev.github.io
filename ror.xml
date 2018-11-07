@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://parishwebdev.github.io/</title>
+  <link>https://parishwebdev.github.io/</link>
+
+<item>
+     <link>https://parishwebdev.github.io/</link>
+     <title>Parish Web Dev | Home</title>
+     <description>Matthew Parish: Web Developer in Milwaukee Wisconsin.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://parishwebdev.github.io/index.html</link>
+     <title>Parish Web Dev | Home</title>
+     <description>Matthew Parish: Web Developer in Milwaukee Wisconsin.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://parishwebdev.github.io/projects.html</link>
+     <title>Parish Web Dev | Projects</title>
+     <description>Web development projects made by Matthew Parish.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://parishwebdev.github.io/resume.html</link>
+     <title>Parish Web Dev | Resume</title>
+     <description>Matthew Parish's resume page.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://parishwebdev.github.io/project-detail/bestpracticewiki.html</link>
+     <title>Parish Web Dev | Best Practice Wiki</title>
+     <description>Best Practice Wiki - application made to make research easier to find best practices for common programming languages.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://parishwebdev.github.io/Assets/Img/Parish%20-%20Resume.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
